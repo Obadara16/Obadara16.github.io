@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LionCoders" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="#" />
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+    <!-- Plugins CSS -->
+    <link href="css/plugin.css" rel="stylesheet" />
+    <!-- style CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>TelHomes - Real Estate</title>
+</head>
+
+<body>
+    <!--Page Wrapper starts-->
+    <div class="page-wrapper">
+        <!--header starts-->
+        <header class="header transparent scroll-hide">
+            <!--Main Menu starts-->
+            <div class="site-navbar-wrap v1">
+                <div class="container">
+                    <div class="site-navbar">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2 col-md-6 col-9 order-2 order-xl-1 order-lg-1 order-md-1">
+                                <a class="navbar-brand" href="index.html">TelHomes</a>
+                            </div>
+                            <div class="col-lg-6 col-md-1 col-3  order-3 order-xl-2 order-lg-2 order-md-3 pl-xs-0">
+                                <nav class="site-navigation text-right">
+                                    <div class="container">
+                                        <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                            <li class="has-children">
+                                                <a href="#">Buy</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">Open Houses</a></li>
+                                                    <li><a href="#">Homes For Sale</a></li>
+                                                    <li><a href="#">New Houses</a></li>
+                                                    <li><a href="#">Recently Sold</a></li>
+                                                    <li><a href="#">See New Listing</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-children">
+                                                <a href="#">Rent</a>
+                                                <ul class="dropdown">
+                                                    <li>
+                                                        <a href="#">All Rentals</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Apartments for Rent</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Houses for Rent</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">See New Listing</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-children">
+                                                <a href="#">Property</a>
+                                                <ul class="dropdown sub-menu">
+                                                    <li><a href="#">Condominium </a></li>
+                                                    <li><a href="#">Apartment</a></li>
+                                                    <li><a href="#">Family Home</a></li>
+                                                    <li><a href="#">Villa</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-children">
+                                                <a href="#">Pages</a>
+                                                <ul class="dropdown">
+                                                    <li class="has-children">
+                                                        <a href="#">Agents</a>
+                                                        <ul class="dropdown sub-menu">
+                                                            <li><a href="agent-list.html">Agents List</a>
+                                                            </li>
+                                                            <li><a href="agent-grid.html">Agents Grid</a>
+                                                            </li>
+                                                            <li><a href="single-agent.html">Agent Profile</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="has-children">
+                                                        <a href="#">Agency</a>
+                                                        <ul class="dropdown sub-menu">
+                                                            <li><a href="agency-list.html">Agency List</a>
+                                                            </li>
+                                                            <li><a href="agency-grid.html">Agency Grid</a>
+                                                            </li>
+                                                            <li><a href="single-agency.html">Agency Profile</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="db.html">Dashboard</a></li>
+                                                    <li><a href="about.html">About us</a></li>
+                                                    <li><a href="contact.html">Contact us</a></li>
+                                                    <li><a href="membership-package.html">Membership Packages</a></li>
+                                                    <li><a href="compare.html">Compare</a></li>
+                                                    <li><a href="404-page.html">404 error</a></li>
+                                                    <li><a href="add-listing.html">Add Listing</a></li>
+                                                    <li><a href="faq.html">FAQ</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">News</a>
+                                            </li>
+                                            <li class="d-lg-none"><a class="btn v3" href="add-listing.html"><i class="lnr lnr-home"></i>Add Listing </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <div class="d-lg-none sm-right">
+                                    <a href="#" class="mobile-bar js-menu-toggle">
+                                        <span class="lnr lnr-menu"></span>
+                                    </a>
+                                </div>
+                                <!--mobile-menu starts -->
+                                <div class="site-mobile-menu">
+                                    <div class="site-mobile-menu-header">
+                                        <div class="site-mobile-menu-close  js-menu-toggle">
+                                            <span class="lnr lnr-cross"></span> </div>
+                                    </div>
+                                    <div class="site-mobile-menu-body"></div>
+                                </div>
+                                <!--mobile-menu ends-->
+                            </div>
+                            <div class="col-lg-4 col-md-5 col-12 order-1 order-xl-3 order-lg-3 order-md-2 text-right pr-xs-0">
+                                <div class="menu-btn">
+                                    <ul class="user-btn v2">
+                                        <li><a href="#" data-toggle="modal" data-target="#user-login-popup"><i class="lnr lnr-user"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="add-list float-right ml-3">
+                                        <a class="btn v6" href="#"><i class="lnr lnr-home"></i>Add Listing </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Main Menu ends-->
+        </header>
+        <!--Header ends-->
+        <!--Hero section starts-->
+        <div class="bgimg-area v1">
+            <div class="bgimg-container">
+                <div class="overlay op-1"></div>
+                <div id="bgimg-wrapper" style="background-image: url(images/header/home-video-bg.jpg)"> </div>
+                <div class="container bgimg-content">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="header-text v1">
+                                <h1>Let’s find a home that’s perfect for you</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <form class="hero__form v1 filter listing-filter">
+                                <div class="row">
+                                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 py-3 pl-30 pr-0">
+                                        <div class="input-search">
+                                            <input type="text" name="place-event" id="place-event" placeholder="Enter Property, Location, Landmark ...">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 py-3 pl-30 pr-0">
+                                        <select class="hero__form-input  form-control custom-select">
+                                            <option>Select Area</option>
+                                            <option>Victotia Island</option>
+                                            <option>Lekki</option>
+                                            <option>Oluyole</option>
+                                            <option>Aja</option>
+                                            <option>Garki</option>
+                                            <option>Banana Island</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 py-3 pl-30 pr-0">
+                                        <select class="hero__form-input  form-control custom-select">
+                                            <option>Select City</option>
+                                            <option>Abuja</option>
+                                            <option>Lagos</option>
+                                            <option>Ibadan</option>
+                                            <option>Port-Harcourt</option>
+                                            <option>Lokoja</option>
+                                            <option>Enugu</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 py-3 pl-30 pr-0">
+                                        <div class="submit_btn">
+                                            <button class="btn v3" type="submit">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Hero section ends-->
+        <!--Category section starts-->
+        <div class="category-section v2 mt-140">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="#">
+                            <div class="single_cat">
+                                <img src="images/category/condo.png" alt="...">
+                                <h4>Condominium</h4>
+                                <p><strong>45</strong> listings</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="#">
+                            <div class="single_cat">
+                                <img src="images/category/apartment.png" alt="...">
+                                <h4>Apartment</h4>
+                                <p><strong>78</strong> listings</p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="#">
+                            <div class="single_cat">
+                                <img src="images/category/home.png" alt="...">
+                                <h4>Family Home</h4>
+                                <p><strong>102</strong> listings</p>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="#">
+                            <div class="single_cat">
+                                <img src="images/category/villa.png" alt="...">
+                                <h4>Villa</h4>
+                                <p><strong>35</strong> listings</p>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Category section ends-->
+        <!--Trending events starts-->
+        <!--Popular City starts-->
+        <div class="container mt-130">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title v1">
+                        <h2>Find Properties in Your city</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="property-place pb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="swiper-container popular-place-wrap v1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_2.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Ibadan</a>
+                                    <a class="single-place-title1" href="#">For Sale</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>30</span>Luxury villa</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_16.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Enugu</a>
+                                    <a class="single-place-title1" href="#">For Rent</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>50</span>Luxury Apartment</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_6.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Lagos</a>
+                                    <a class="single-place-title1" href="#">For Sale</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>145</span>Property Listings</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_1.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Abuja</a>
+                                    <a class="single-place-title1" href="#">For Sale</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>115</span>Property Listings</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_4.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Port-Harcout</a>
+                                    <a class="single-place-title1" href="#">For Sale</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>50</span>Luxury Apartment</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-place-wrap">
+                                <div class="single-place-image">
+                                    <a href="#"><img src="images/places/place_5.jpg" alt="place-image"></a>
+                                    <a class="single-place-title" href="#">Lokoja</a>
+                                    <a class="single-place-title1" href="#">For Rent</a>
+                                </div>
+                                <div class="single-place-content">
+                                    <h3><span>80</span>Apartments for sale</h3>
+                                    <a href="grid-fullwidth-map.html">See all Listings <i class="lnr lnr-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-btn v2 popular-next"><i class="lnr lnr-arrow-right"></i></div>
+                        <div class="slider-btn v2 popular-prev"><i class="lnr lnr-arrow-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Popular City ends-->
+        <!--Call to action starts-->
+        <div class="call-to-action bg-fixed bg-h mt-110 consult-form v1" style="background-image: url(images/bg/call-to-action-bg.jpg)">
+            <div class="overlay op-7"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-md-12 text-center">
+                        <div class="action-title sm-center">
+                            <h2>Get a Free Consultation</h2>
+                            <p>With no pressure to commit and no money collected until we sell your home, why not schedule your free consultation and let our expert knowledge and resources help you realize your goal of buying or selling a home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row consult-form">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control filter-input" placeholder="Your name">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control filter-input" placeholder="Your mail">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control filter-input" placeholder="Your phone number">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+
+                            <select class="listing-input hero__form-input  form-control custom-select">
+                                <option>Select your city</option>
+                                <option>NewYork</option>
+                                <option>Milan</option>
+                                <option>Florida</option>
+                                <option>Miami</option>
+                                <option>Havana</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="form-group">
+                            <select class="listing-input hero__form-input  form-control custom-select">
+                                <option>Buy a property</option>
+                                <option>Rent a property</option>
+                                <option>Others </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="btn v8">Send Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Call to action ends-->
+        <!--Team section starts-->
+        <div class="team-section pt-100">
+            <div class="container">
+                <div class="row mt-30">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <div class="section-title v1">
+                            <p>Ready to serve you the best</p>
+                            <h2>Meet our Agents</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="single-team-member agent-item v1">
+                            <img src="images/agents/agent_1.jpg" alt="Image">
+                            <div class="single-team-info">
+                                <div class="agent-content">
+                                    <h4><a href="single-agent.html">Tony Stark</a></h4>
+                                    <span>Real Estate Agent</span>
+                                    <ul class="list">
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-phone-alt"></i>
+                                                </div>
+                                                <div class="text"><a href="tel:44078767595">+44 078 767 595</a></div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="text"><a href="#">tony_stark@telhomes.com</a></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="social-buttons style2">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                    <a href="single-agent.html" class="agent-link">View Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="single-team-member agent-item v1">
+                            <img src="images/agents/agent_2.jpg" alt="Image">
+                            <div class="single-team-info">
+                                <div class="agent-content">
+                                    <h4><a href="single-agent.html">Bob Haris</a></h4>
+                                    <span>Sales Executive</span>
+                                    <ul class="list">
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-phone-alt"></i>
+                                                </div>
+                                                <div class="text"><a href="tel:44078767595">+44 765 342 312</a></div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="text"><a href="#">bob_haris@telhomes.com</a></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="social-buttons style2">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                    <a href="single-agent.html" class="agent-link">View Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="single-team-member agent-item v1">
+                            <img src="images/agents/agent_3.jpg" alt="Image">
+                            <div class="single-team-info">
+                                <div class="agent-content">
+                                    <h4><a href="single-agent.html">Jesicca Hue</a></h4>
+                                    <span>Sales Executive</span>
+                                    <ul class="list">
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-phone-alt"></i>
+                                                </div>
+                                                <div class="text"><a href="tel:44078767595">+44 687 294 812</a></div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="contact-info">
+                                                <div class="icon">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="text"><a href="#">jessica_hue@telhomes.com</a></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="social-buttons style2">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                    <a href="single-agent.html" class="agent-link">View Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <a href="agent-grid.html" class="btn v9">See All Agents</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Team section ends-->
+        <!--Partner section starts-->
+        <div class="partner-section style1 mt-130 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title v1">
+                            <h2>Our Partners</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="swiper-container partner-wrap">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_7.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_3.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_8.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_2.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_1.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_4.jpg" alt="...">
+                                </div>
+                                <div class="swiper-slide single-partner">
+                                    <img src="images/partners/partner_9.jpg" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Partner section ends-->
+        <!-- Scroll to top starts-->
+        <span class="scrolltotop"><i class="lnr lnr-arrow-up"></i></span>
+        <!-- Scroll to top ends-->
+    </div>
+    <!--Page Wrapper ends-->
+    <!--Footer Starts-->
+    <div class="footer-wrapper v2">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row nav-folderized">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-logo">
+                           <h2 class="title" style="color: white">TelHomes</h2>
+                            <div class="company-desc">
+                                <p>
+                                    Get the best real estate deals first, before they hit the mass market! HOT TELHOMES DEALS with one simple search
+                                </p>
+                                <ul class="list footer-list mt-20">
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="icon">
+                                                <i class="fa fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="text">13th Victoria Island, Lagos, Nigeria</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="text"><a href="#">info@telhomes.com</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </div>
+                                            <div class="text">+234 908 767 5951</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 text-center sm-left">
+                        <div class="footer-content nav">
+                            <h2 class="title">Popular Searches</h2>
+                            <ul class="list res-list">
+                                <li><a class="link-hov style2" href="#">Property for Rent</a></li>
+                                <li><a class="link-hov style2" href="#">Property for Sale</a></li>
+                                <li><a class="link-hov style2" href="#">Condominium for Sale</a></li>
+                                <li><a class="link-hov style2" href="#">Resale Properties</a></li>
+                                <li><a class="link-hov style2" href="#">Recent Properties</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-center sm-left">
+                        <div class="footer-content nav">
+                            <h2 class="title">Quick Links</h2>
+                            <ul class="list res-list">
+                                <li><a class="link-hov style2" href="about.html">About us</a></li>
+                                <li><a class="link-hov style2" href="contact.html">Contact us</a></li>
+                                <li><a class="link-hov style2" href="faq.html">Privacy Policy</a></li>
+                                <li><a class="link-hov style2" href="faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="footer-content">
+                            <h4 class="title">Subscribe</h4>
+                            <div class="value-input-wrap newsletter">
+                                <form action="#">
+                                    <input type="text" placeholder="Your mail address ..">
+                                    <button class="bg-orange" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                            <div class="footer-social-wrap">
+                                <p>Follow us on </p>
+                                <ul class="social-buttons style2">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 offset-md-2">
+                        <p>
+                            ©TelHomes 2021. All rights reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer ends-->
+    <!--login Modal starts-->
+    <div class="modal fade" id="user-login-popup">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="lnr lnr-cross"></i></span></button>
+                </div>
+                <div class="modal-body">
+                    <!--User Login section starts-->
+                    <div class="user-login-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="ui-list nav nav-tabs mb-30" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#login" role="tab" aria-selected="true">Login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#register" role="tab" aria-selected="false">Register</a>
+                                        </li>
+                                    </ul>
+                                    <div class="login-wrapper">
+                                        <div class="ui-dash tab-content">
+                                            <div class="tab-pane fade show active" id="login" role="tabpanel">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <form id="login-form" action="#" method="post">
+                                                            <div class="form-group">
+                                                                <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="email" value="" required="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                                                            </div>
+                                                            <div class="row mt-20">
+                                                                <div class="col-md-6 col-12 text-left">
+                                                                    <div class="res-box">
+                                                                        <input id="check-w" type="checkbox" name="check">
+                                                                        <label for="check-w">Remember me</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6 col-12 text-right">
+                                                                    <div class="res-box sm-left">
+                                                                        <a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="res-box text-center mt-30">
+                                                                <button type="submit" class="btn v8"><span class="lnr lnr-exit"></span> Log In</button>
+                                                            </div>
+                                                        </form>
+                                                        <div class="social-profile-login  text-left mt-20">
+                                                            <h5>or Login with</h5>
+                                                            <ul class="social-btn">
+                                                                <li class="bg-fb"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                                <li class="bg-tt"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                                <li class="bg-ig"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="signup-wrapper">
+                                                            <img src="images/others/login-1.png" alt="...">
+                                                            <p>Welcome Back! Please Login to your Account for latest property listings.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="register" role="tabpanel">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <form id="register-form" action="#" method="post">
+                                                            <div class="form-group">
+                                                                <input type="text" name="user_name" id="user_name" tabindex="1" class="form-control" placeholder="Username" value="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" name="user_password" id="user_password" tabindex="2" class="form-control" placeholder="Password">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                                                            </div>
+                                                            <div class="res-box text-left">
+                                                                <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                                                                <label for="remember">I've read and accept terms &amp; conditions</label>
+                                                            </div>
+                                                            <div class="res-box text-center mt-30">
+                                                                <button type="submit" class="btn v8"><i class="lnr lnr-enter"></i>Sign Up</button>
+                                                            </div>
+                                                        </form>
+                                                        <div class="social-profile-login  text-left mt-20">
+                                                            <h5>or Sign Up with</h5>
+                                                            <ul class="social-btn">
+                                                                <li class="bg-fb"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                                <li class="bg-tt"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                                <li class="bg-ig"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="signup-wrapper">
+                                                            <img src="images/others/login-1.png" alt="...">
+                                                            <p>Create an account to find the best Property for you.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--User login section ends-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--login Modal ends-->
+    <!--Scripts starts-->
+    <!--plugin js-->
+    <script src="js/plugin.js"></script>
+    <!--google maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8C7p0Ws2gUu7wo0b6pK9Qu7LuzX2iWY&amp;libraries=places&amp;callback=initAutocomplete"></script>
+    <!--Main js-->
+    <script src="js/main.js"></script>
+    <!--Scripts ends-->
+</body>
